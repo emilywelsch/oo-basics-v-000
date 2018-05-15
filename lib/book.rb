@@ -1,5 +1,6 @@
 # learn spec/01_book_spec.rb
 class Book
+  
   attr_accessor :author, :page_count, :genre
   attr_reader :title
 
@@ -9,7 +10,6 @@ class Book
 
   def turn_page
     puts "Flipping the page...wow, you read fast!"
-    condition == "new"
   end
 
 end
